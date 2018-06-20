@@ -110,7 +110,7 @@ const config = {
     },
   },
   plugins: [
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({ analyzerMode: process.env.NODE_ENV !== 'production' ? 'disabled' : 'server' }), // do not analyze when in production mode
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/), // ignore locale files in moment - takes up a lot of space
     new CompressionPlugin({
       asset: '[path].gz[query]',

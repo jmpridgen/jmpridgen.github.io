@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "description": "Explosives"
+  },
+  {
+    "id": "2",
+    "description": "Gases"
+  },
+  {
+    "id": "3",
+    "description": "Flammable Liquids (and Combustible Liquids)"
+  },
+  {
+    "id": "4",
+    "description": "Flammable Solids; Spontaneously Combustible Materials"
+  },
+  {
+    "id": "5",
+    "description": "Oxidizers and Organic Peroxides"
+  },
+  {
+    "id": "6",
+    "description": "Toxic Materials and Infectious Substances"
+  },
+  {
+    "id": "7",
+    "description": "Radioactive Materials"
+  },
+  {
+    "id": "8",
+    "description": "Corrosive Materials"
+  },
+  {
+    "id": "9",
+    "description": "Miscellaneous Dangerous Goods"
+  }
+]
+

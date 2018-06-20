@@ -1,0 +1,66 @@
+@import "../../config/scss/resources/index";
+
+.outerContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(-45deg, $yellow, $orange);
+  background-size: cover;
+  border-radius: 0;
+  width: 100%;
+}
+
+.unNumberInput {
+  color: $charcoal;
+  background-color: transparent;
+  text-align: center;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 1px solid $charcoal;
+  margin-top: 1rem;
+}
+
+.unNumberInput::placeholder {
+  color: $grey;
+}
+
+.unNumberInput:focus {
+  outline: none;
+}
+
+.class0 {
+  background: white;
+}
+
+.class1 {
+  background: linear-gradient(-45deg, $yellow, $orange);
+}
+
+.class2 {
+  background: linear-gradient(-45deg, $red, $yellow);
+}
+.class3 {
+  background: linear-gradient(-45deg, $blue, $pink);
+}
+
+.class4 {
+  background: linear-gradient(-45deg, $green, $pink);
+}
+
+.class5 {
+  background: linear-gradient(-45deg, $red, $blue);
+}
+.class6 {
+  background: linear-gradient(-45deg, $purple, $charcoal);
+}
+.class7 {
+  background: linear-gradient(-45deg, $blue, $charcoal);
+}
+.class8 {
+  background: linear-gradient(-45deg, $red, $green);
+}
+.class9 {
+  background: linear-gradient(-45deg, $yellow, $red);
+}

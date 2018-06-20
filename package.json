@@ -11,6 +11,10 @@
     "lint": "eslint ./src",
     "heroku-postbuild": "webpack-cli -p --progress"
   },
+  "engines": {
+    "node": "10.4.0",
+    "npm": "6.1.0"
+  },
   "keywords": [],
   "author": "Max Pridgen",
   "license": "MIT",

@@ -14,10 +14,6 @@ app.use(helmet());
 
 // app.use('/', expressStaticGzip(path.join(__dirname, '../', '../', '/public')));
 
-// import routes
-// app.use('/api', require('./routes/api'));
-
-
 app.get('*', (req, res) => {
   const fPath = path.join(__dirname, '../', '../', 'public', 'index.html');
   res.sendFile(fPath);

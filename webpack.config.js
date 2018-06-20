@@ -41,7 +41,6 @@ const config = {
             },
           },
           { loader: 'sass-loader' },
-          { loader: 'sass-variable-loader' },
         ],
       },
       {
